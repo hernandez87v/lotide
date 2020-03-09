@@ -1,5 +1,5 @@
-const tail = function(assertEqual) {
-  let newArray = assertEqual.slice(1);
+const tail = function(input) {
+  let newArray = input.slice(1);
   return newArray;
 };
 
