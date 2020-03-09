@@ -1,5 +1,6 @@
 const tail = function(assertEqual) {
-  return assertEqual.slice(1);
+  let newArray = assertEqual.slice(1);
+  return newArray;
 };
 
 module.exports = tail;
