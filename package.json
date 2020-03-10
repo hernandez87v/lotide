@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@hernandez87v/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -7,7 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "my-package": "0.0.0"
   },
   "devDependencies": {
     "mocha": "^7.1.0"
@@ -19,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/hernandez87v/lotide.git"
   },
-  "author": "",
+  "author": "Vlad Hernandez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hernandez87v/lotide/issues"
