@@ -1,12 +1,17 @@
 const middle = function(array) {
-  let midPoint = Math.floor(array.length / 2) - 1;
+  let midPoint = Math.floor(array.length / 2);
+  console.log(midPoint);
+  let newStr = [];
   if (array.length <= 2) {
     return [];
   }
   if (array.length % 2 === 0) {
-    return [array[midPoint], array[midPoint + 1]];
+    newStr.push(array[midPoint]);
+    newStr.push(array[midPoint - 1]);
+    return newStr;
   } else {
-    return [array[midPoint]];
+    newStr.push(array[midPoint]);
+    return newStr;
   }
 };
 
